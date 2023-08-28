@@ -1,0 +1,39 @@
+[
+    {
+      "codigo_color": "#1ABC9C",
+      "color": "Turquesa",
+      "precio": 19345.28
+    },
+    {
+      "codigo_color": "#E67E22",
+      "color": "Amarillo",
+      "precio": 16780.95
+    },
+    {
+      "codigo_color": "#27AE60",
+      "color": "Verde Esmeralda",
+      "precio": 17962.16
+    },
+    {
+      "codigo_color": "#D35400",
+      "color": "Rojo Cobre",
+      "precio": 15847.79
+    },
+    {
+      "codigo_color": "#8E44AD",
+      "color": "Violeta",
+      "precio": 17293.14
+    },
+    {
+      "codigo_color": "#16A085",
+      "color": "Aguamarina",
+      "precio": 19014.01
+    },
+    {
+      "codigo_color": "#F1C40F",
+      "color": "Amarillo Arena",
+      "precio": 15478.56
+    }
+    
+  ]
+  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Litros de Pintura</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="./Css/css.css">
+  <link rel="stylesheet" type="text/css" href="./Css/css.css">
+</head>
+<body>
+  <!-- barra de menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Calculadora de Pintura</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link" href="./Pages/contacto.html">Contacto</a></li>
+      <li class="nav-item"><a class="nav-link" href="./Pages/quienessomos.html">Quiénes Somos</a></li>
+      <li class="nav-item"><a class="nav-link" href="./Pages/historial.html">Historial de Cálculos</a></li>
+      <li class="nav-item"><a class="nav-link" href="./Pages/registro.html">Registrate</a></li>
+    </ul>
+  </nav>
+  <!-- formulario -->
+  <div class="container mt-4">
+    <h2>Calculadora de Litros de Pintura</h2>
+    <form id="pintForm">
+      <div class="form-group">
+        <label for="numambs">Cantidad de Ambientes a Pintar:</label>
+        <input type="number" class="form-control" id="numambs" required>
+      </div>
+      <div id="ambInputs"></div>
+      <hr>
+      <button type="submit" class="btn btn-primary">Agregar</button>
+      <button type="button" class="btn btn-secondary ml-2" id="clearBtn">Limpiar</button>
+      
+    </form>
+    
+    <div id="output"></div>
+  </div>
+  <hr>
+  <h1 class="animate__animated animate__rubberBand">Ofertas🛒</h1>
+  <hr>
+  <h2>Aprovecha las ofertas de los colores que marcan tendencia en esta primavera</h2>
+  <!-- lectura del archivo json que almacena la info y simula ser la api -->
+  <ul id="colorsList"></ul>
+  <script src="./Script/script.js"></script>
+</body>
+</html>
+!
